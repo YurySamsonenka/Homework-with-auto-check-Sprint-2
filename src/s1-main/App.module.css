@@ -1,9 +1,12 @@
 .App {
   display: flex;
-  /*background-color: #666a70;*/
   align-items: center;
-  height: 100vh;
+  /*background-color: #666a70;*/
+  flex-direction: column;
+  /*height: 100vh;*/
+  background-color: #fff;
   --header_height: 60px;
+
 }
 
 [id=hw1] {
@@ -12,7 +15,7 @@
   height: 100%;
   margin: 0 auto;
   padding-top: 30px;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .hw {
