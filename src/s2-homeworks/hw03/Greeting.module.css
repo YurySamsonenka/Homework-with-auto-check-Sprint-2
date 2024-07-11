@@ -2,18 +2,21 @@
 }
 
 .inputAndButtonContainer {
+  display: flex;
 }
 
 .error {
 }
 
 .input {
+  background: transparent;
 }
 
 .input:focus {
 }
 
 .errorInput {
+  background: red;
 }
 
 .button {
