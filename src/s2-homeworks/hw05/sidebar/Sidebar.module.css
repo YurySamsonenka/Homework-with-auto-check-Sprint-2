@@ -1,4 +1,9 @@
 .sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 317px;
+  height: 100vh;
 }
 
 .sidebar.open {
@@ -11,12 +16,14 @@
 }
 
 .nav a {
+  color: #00cc22;
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+  color: #B21232;
 }
 .close {
 }
