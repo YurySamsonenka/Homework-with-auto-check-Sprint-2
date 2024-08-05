@@ -2,6 +2,11 @@
 }
 
 .header {
+  display: flex;
+justify-content: space-between;
+  width: 100%;
+  padding: 17px 0 14px;
+  box-shadow: #1D21261A 2px 3px;
 }
 
 .header h1 {
