@@ -11,13 +11,25 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+}
+
+table {
+  font-size: 20px;
 }
 
 .thead {
+  font-weight: 500;
+  background-color: #E5E5E5;
 }
 
 .nameCol {
+  width: 300px;
 }
 
 .ageCol {
+  font-weight: 500;
 }
